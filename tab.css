@@ -1,0 +1,114 @@
+/*----------------------------
+media query for tablet view
+------------------------------*/
+@media only screen and (min-width: 689px) and (max-width: 1096px) {
+
+    /*------------
+    common styles
+    --------------*/
+    .container {
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    /*-------------
+    banner style
+    --------------*/
+    .banner {
+        padding-left: 8%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        color: aliceblue;
+    }
+
+    .banner>h1 {
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 26pt;
+    }
+
+    /*------------
+        aside bar
+    --------------*/
+    aside {
+        display: flex;
+        width: 90%;
+        float: none;
+        margin-left: 6%;
+        margin-bottom: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .side-nav {
+        background-color: white;
+        grid-template-columns: repeat(3, 1fr);
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+
+    .button {
+        padding: 10px 20px 10px 20px;
+    }
+
+    /*-----------
+        blogs
+    -------------*/
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5% 0 5%;
+    }
+
+    .blog-hide {
+        display: none;
+    }
+
+    .Transfer-button {
+        padding: 1% 5% 1% 5%;
+    }
+
+    /*--------------
+    upcoming matches
+    ----------------*/
+    .upcoming-matches {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5% 0 5%;
+    }
+
+    /*--------------
+    view all button
+    ----------------*/
+    .view-all {
+        display: block;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        margin: 5% 40% 5% 40%;
+        background-color: red;
+    }
+
+    .view-all>a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: aliceblue;
+    }
+
+    /*-------------
+       footer
+    ---------------*/
+    .footer-nav {
+        flex-wrap: wrap;
+        padding: 5% 5% 0 5%;
+        justify-content: center;
+    }
+
+    .footer-nav>p {
+        margin: 0 20px 0 10px;
+    }
+
+}
